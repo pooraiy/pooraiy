@@ -1,60 +1,79 @@
 <div align="center">
 
-<!-- ANIMATED HEADER SVG -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0221,20:1A0533,40:2D0A4E,60:4B0082,80:7B2FBE,100:9B59B6&height=220&section=header&text=⚡%20WELCOME%20TO%20MY%20UNIVERSE%20⚡&fontSize=38&fontColor=ffffff&fontAlignY=35&desc=%7C%20Creative%20Developer%20%7C%20Digital%20Architect%20%7C%20Tech%20Visionary%20%7C&descSize=14&descAlignY=55&animation=twinkling&duration=3000" width="100%"/>
-
-<!-- TYPING SVG -->
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=9B59B6&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%F0%9F%A4%96+Building+the+Future+with+Code%3B%F0%9F%94%A5+Turning+Ideas+into+Reality%3B%E2%9A%A1+Always+Learning%2C+Always+Evolving)
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/header.svg" width="100%" alt="POORAIY // NEXUS"/>
 
 </div>
 
 <br/>
 
+<!-- ═══════════════════ STATUS HUD ═══════════════════ -->
 <div align="center">
 
-![Visitors](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=9B59B6&style=for-the-badge&label=PROFILE+VISITORS)
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/status-bar.svg" width="820" alt="status hud"/>
 
 </div>
 
 <br/>
 
-<!-- STATUS BAR -->
+<!-- ═══════════════════ BOOT SEQUENCE ═══════════════════ -->
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=radical&no-frame=true&no-bg=true&column=7&row=2&margin-w=10" width="100%"/>
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider-pulse.svg" width="600" alt="divider"/>
+
+### `▸ SYSTEM_BOOT // transmission_001`
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/terminal-boot.svg" width="760" alt="boot terminal"/>
 
 </div>
 
 <br/>
 
----
+<!-- ═══════════════════ IDENTITY CORE ═══════════════════ -->
+<div align="center">
 
-## 🌌 **ABOUT ME**
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider-hex.svg" width="700" alt="divider"/>
 
-<br/>
+### `▸ IDENTITY_CORE`
+
+</div>
 
 <table>
 <tr>
-<td width="50%">
+<td width="55%" valign="top">
 
-### 👤 **WHO AM I?**
+```yaml
+# nexus://identity
+operator:
+  alias:     POORAIY
+  role:      Developer / Engineer / Builder
+  domain:    Web · Cloud · Systems
+  state:     evolving_continuously
 
-- 🔭 Currently exploring **cutting-edge technologies**
-- 🌱 Passionate about **AI/ML**, **Web3**, and **Cloud Architecture**
-- 💡 Building **innovative solutions** that matter
-- 🎯 Obsessed with **clean code** and **elegant designs**
-- ⚡ Fuel: **Coffee ☕ + Curiosity 🧠**
+doctrine:
+  - build things that matter
+  - clean code or no code
+  - ship. learn. iterate. repeat.
+
+currently:
+  exploring: [AI/ML, cloud architecture, web3]
+  fuel:      coffee + curiosity + midnight builds
+```
 
 </td>
-<td width="50%">
+<td width="45%" valign="top">
 
-### 💫 **QUICK STATS**
+#### `// DIRECTIVES`
 
-<div align="center">
+- **Engineering** systems with precision and intent
+- **Designing** interfaces that feel like the future
+- **Automating** everything that automates
+- **Exploring** the frontier where AI meets software
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=radical&hide_border=true&background=0D0221&ring=9B59B6&fire=7B2FBE&currStreakLabel=9B59B6&sideLabels=ffffff)
+<br/>
 
-</div>
+<a href="https://komarev.com/ghpvc/?username=pooraiy&color=B026FF&style=for-the-badge&label=INTRUSIONS+LOGGED">
+<img src="https://komarev.com/ghpvc/?username=pooraiy&color=B026FF&style=for-the-badge&label=INTRUSIONS+LOGGED" alt="profile views"/>
+</a>
 
 </td>
 </tr>
@@ -62,58 +81,129 @@
 
 <br/>
 
----
-
-## 🚀 **TECH ARSENAL**
-
-<br/>
-
+<!-- ═══════════════════ TECH ARSENAL ═══════════════════ -->
 <div align="center">
 
-#### 💻 **Languages & Frameworks**
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider-datastream.svg" width="700" alt="divider"/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+### `▸ TECH_ARSENAL`
 
-#### 🎨 **Design & Creative**
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/skill-matrix.svg" width="760" alt="skill matrix"/>
 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
+<br/><br/>
 
-#### ☁️ **Cloud & DevOps**
+#### `// CORE STACK`
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+<a href="#"><img src="https://img.shields.io/badge/Python-150425?style=for-the-badge&logo=python&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/TypeScript-150425?style=for-the-badge&logo=typescript&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/JavaScript-150425?style=for-the-badge&logo=javascript&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/React-150425?style=for-the-badge&logo=react&logoColor=00E5FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Next.js-150425?style=for-the-badge&logo=next.js&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Node.js-150425?style=for-the-badge&logo=node.js&logoColor=E040FB"/></a>
 
-#### 🛠️ **Tools & Platforms**
+#### `// INFRASTRUCTURE`
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+<a href="#"><img src="https://img.shields.io/badge/AWS-150425?style=for-the-badge&logo=amazonwebservices&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Docker-150425?style=for-the-badge&logo=docker&logoColor=00E5FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/GitHub_Actions-150425?style=for-the-badge&logo=githubactions&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Vercel-150425?style=for-the-badge&logo=vercel&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/PostgreSQL-150425?style=for-the-badge&logo=postgresql&logoColor=00E5FF"/></a>
+
+#### `// TOOLS OF THE TRADE`
+
+<a href="#"><img src="https://img.shields.io/badge/Linux-150425?style=for-the-badge&logo=linux&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Git-150425?style=for-the-badge&logo=git&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/VS_Code-150425?style=for-the-badge&logo=visualstudiocode&logoColor=00E5FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Figma-150425?style=for-the-badge&logo=figma&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Tailwind-150425?style=for-the-badge&logo=tailwindcss&logoColor=00E5FF"/></a>
 
 </div>
 
 <br/>
 
----
+<!-- ═══════════════════ LIVE TELEMETRY ═══════════════════ -->
+<div align="center">
 
-## 📊 **GITHUB ANALYTICS**
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider-pulse.svg" width="600" alt="divider"/>
+
+### `▸ LIVE_TELEMETRY`
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=pooraiy&show_icons=true&hide_border=true&bg_color=00000000&title_color=B026FF&icon_color=E040FB&text_color=eae6f2&count_private=true&include_all_commits=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pooraiy&layout=compact&hide_border=true&bg_color=00000000&title_color=B026FF&text_color=eae6f2&langs_count=8"/>
 
 <br/>
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=pooraiy&hide_border=true&background=050208&ring=B026FF&fire=E040FB&currStreakLabel=00E5FF&sideLabels=eae6f2&dates=8a7fa8"/>
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pooraiy&theme=github_dark&bg_color=0D0219"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pooraiy&theme=github_dark&bg_color=0D0219"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pooraiy&theme=github_dark&bg_color=0D0219"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=pooraiy&theme=github_dark&bg_color=0D0219"/>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════ ACTIVITY WAVEFORM ═══════════════════ -->
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical&bg_color=0D0221&title_color=9B59B6&icon_color=7B2FBE&text_color=ffffff&border_color=4B0082&hide_border=true&count_private=true&include_all_commits=true"/>
+### `▸ ACTIVITY_WAVEFORM`
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical&bg_color=0D0221&title_color=9B59B6&text_color=ffffff&border_color=4B0082&hide_border=true&langs_count=8"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pooraiy&bg_color=050208&color=8a7fa8&line=B026FF&point=00E5FF&area=true&area_color=2D0A4E&hide_border=true" width="100%" alt="activity graph"/>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════ PROJECT DOSSIERS ═══════════════════ -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider-hex.svg" width="700" alt="divider"/>
+
+### `▸ PROJECT_DOSSIERS`
+
+[![POORAIY // NEXUS](https://github-readme-stats.vercel.app/api/pin/?username=pooraiy&repo=pooraiy&hide_border=true&bg_color=0D0219&title_color=B026FF&icon_color=E040FB&text_color=eae6f2)](https://github.com/pooraiy/pooraiy)
+
+*— more dossiers decrypting... new deployments incoming —*
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════ ACHIEVEMENTS ═══════════════════ -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider-pulse.svg" width="600" alt="divider"/>
+
+### `▸ ACHIEVEMENT_UNLOCKS`
+
+<img src="https://github-profile-trophy.vercel.app/?username=pooraiy&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=12&title_color=B026FF&text_color=eae6f2&icon_color=E040FB&border_color=2D0A4E" width="100%" alt="trophies"/>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════ UPLINK ═══════════════════ -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider-datastream.svg" width="700" alt="divider"/>
+
+### `▸ ESTABLISH_UPLINK`
+
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/TRANSMIT-EMAIL-150425?style=for-the-badge&logo=gmail&logoColor=E040FB"/></a>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LINK-NETWORK-150425?style=for-the-badge&logo=linkedin&logoColor=00E5FF"/></a>
+<a href="https://twitter.com/YOUR_TWITTER"><img src="https://img.shields.io/badge/SIGNAL-X-150425?style=for-the-badge&logo=x&logoColor=B026FF"/></a>
+<a href="https://YOUR_PORTFOLIO"><img src="https://img.shields.io/badge/NODE-PORTFOLIO-150425?style=for-the-badge&logo=about.me&logoColor=E040FB"/></a>
+
+<br/><br/>
+
+> *"The future is not something you enter. It is something you **build**."*
+
+**⭐ Star the nexus if you survived the boot sequence ⭐**
+
+`POORAIY // NEXUS_OS v2.0 — all systems nominal`
 
 </div>
 
@@ -121,101 +211,6 @@
 
 <div align="center">
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0D0221&color=9B59B6&line=7B2FBE&point=ffffff&area=true&area_color=4B0082&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
-<br/>
-
----
-
-## 🔥 **CONTRIBUTION CADENCE**
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-location?username=YOUR_USERNAME&theme=radical&bg_color=0D0221"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YOUR_USERNAME&theme=radical&bg_color=0D0221"/>
-
-</div>
-
-<br/>
-
----
-
-## 🏆 **ACHIEVEMENTS & BADGES**
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=radical&no-frame=true&no-bg=true&column=7&row=1&margin-h=15&margin-w=5"/>
-
-</div>
-
-<br/>
-
----
-
-## 🎯 **DAILY DEV**
-
-<br/>
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=radical&no-frame=true&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<br/>
-
----
-
-## 🌐 **CONNECT WITH ME**
-
-<br/>
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/YOUR_INSTAGRAM)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about.me&logoColor=white)](https://YOUR_PORTFOLIO)
-
-</div>
-
-<br/>
-
----
-
-## 💜 **SUPPORT MY WORK**
-
-<br/>
-
-<div align="center">
-
-<a href="https://www.buymeacoffee.com/YOUR_USERNAME" target="_blank">
-<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60">
-</a>
-
-</div>
-
-<br/>
-
----
-
-<!-- FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0221,20:1A0533,40:2D0A4E,60:4B0082,80:7B2FBE,100:9B59B6&height=120&section=footer" width="100%"/>
-
-<div align="center">
-
-**⭐ If you like what you see, don't forget to star this repo! ⭐**
-
-*Crafted with 💜 and a passion for innovation*
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/footer.svg" width="100%" alt="footer"/>
 
 </div>
