@@ -1,0 +1,61 @@
+<svg width="800" height="480" viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="npG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12042a" stop-opacity=".9"/><stop offset="100%" stop-color="#070310" stop-opacity=".95"/>
+    </linearGradient>
+    <filter id="nglow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    text { font-family: Consolas,'Courier New',monospace; }
+    .syn { animation: synPulse 3s ease-in-out infinite; }
+    .s2{animation-delay:.5s}.s3{animation-delay:1s}.s4{animation-delay:1.5s}.s5{animation-delay:2s}.s6{animation-delay:2.5s}
+    @keyframes synPulse { 0%,100%{stroke-opacity:.12} 50%{stroke-opacity:.65} }
+    .nd { animation: ndPulse 2.4s ease-in-out infinite; }
+    @keyframes ndPulse { 0%,100%{r:5} 50%{r:6.5} }
+  </style>
+
+  <rect x="1" y="1" width="798" height="478" rx="14" fill="url(#npG)" stroke="#2D0A4E" stroke-width="1.5"/>
+  <text x="400" y="40" font-size="16" fill="#E040FB" text-anchor="middle" letter-spacing="4">// NEURAL_CORE :: COGNITIVE MAP //</text>
+  <line x1="40" y1="56" x2="760" y2="56" stroke="#2D0A4E"/>
+
+  <!-- layer labels -->
+  <g font-size="11" fill="#8a7fa8" letter-spacing="2">
+    <text x="110" y="86" text-anchor="middle">INPUT</text>
+    <text x="290" y="86" text-anchor="middle">REASONING</text>
+    <text x="490" y="86" text-anchor="middle">CREATION</text>
+    <text x="680" y="86" text-anchor="middle">DEPLOY</text>
+  </g>
+
+  <!-- synapses -->
+  <g stroke="#B026FF" stroke-width="1.2" fill="none">
+    <path class="syn" d="M110,150 C 200,150 220,130 290,135"/>
+    <path class="syn s2" d="M110,235 C 200,235 210,190 290,185"/>
+    <path class="syn s3" d="M110,320 C 200,320 215,250 290,245"/>
+    <path class="syn s4" d="M110,395 C 200,395 225,310 290,305"/>
+    <path class="syn s5" d="M290,135 C 390,135 400,165 490,170"/>
+    <path class="syn s6" d="M290,185 C 390,185 395,195 490,200"/>
+    <path class="syn s2" d="M290,245 C 390,245 385,230 490,225"/>
+    <path class="syn s3" d="M290,305 C 390,305 400,265 490,255"/>
+    <path class="syn s4" d="M290,135 C 400,180 420,280 490,290"/>
+    <path class="syn s5" d="M490,170 C 590,175 600,195 680,200"/>
+    <path class="syn s6" d="M490,225 C 590,222 595,212 680,208"/>
+    <path class="syn s2" d="M490,255 C 590,258 600,232 680,216"/>
+    <path class="syn s3" d="M490,290 C 590,295 610,238 680,224"/>
+  </g>
+
+  <!-- traveling signals -->
+  <circle r="3.5" fill="#00E5FF"><animateMotion path="M110,235 C 200,235 210,190 290,185 C 390,185 395,195 490,200 C 590,222 595,212 680,208" dur="4s" repeatCount="indefinite"/></circle>
+  <circle r="3" fill="#E040FB"><animateMotion path="M110,320 C 200,320 215,250 290,245 C 390,245 385,230 490,225 C 590,258 600,232 680,216" dur="4.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+  <circle r="2.5" fill="#ffffff"><animateMotion path="M110,150 C 200,150 220,130 290,135 C 400,180 420,280 490,290 C 590,295 610,238 680,224" dur="5.2s" begin="2s" repeatCount="indefinite"/></circle>
+
+  <!-- nodes -->
+  <g filter="url(#nglow)">
+    <g fill="#B026FF"><circle class="nd" cx="110" cy="150" r="5"/><circle class="nd" cx="110" cy="235" r="5"/><circle class="nd" cx="110" cy="320" r="5"/><circle class="nd" cx="110" cy="395" r="5"/></g>
+    <g fill="#00E5FF"><circle class="nd" cx="290" cy="135" r="5"/><circle class="nd" cx="290" cy="185" r="5"/><circle class="nd" cx="290" cy="245" r="5"/><circle class="nd" cx="290" cy="305" r="5"/></g>
+    <g fill="#E040FB"><circle class="nd" cx="490" cy="170" r="5"/><circle class="nd" cx="490" cy="200" r="5"/><circle class="nd" cx="490" cy="225" r="5"/><circle class="nd" cx="490" cy="255" r="5"/><circle class="nd" cx="490" cy="290" r="5"/></g>
+    <circle class="nd" cx="680" cy="208" r="7" fill="#ffffff"/>
+    <circle cx="680" cy="208" r="14" fill="none" stroke="#E040FB" stroke-opacity=".6"><animate attributeName="r" values="11;20" dur="2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".6;0" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="400" y="450" font-size="12" fill="#8a7fa8" text-anchor="middle">IDEA &#8594; REASON &#8594; CREATE &#8594; SHIP &#183; continuous loop</text>
+</svg>

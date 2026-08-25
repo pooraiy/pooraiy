@@ -1,0 +1,50 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140429"/><stop offset="100%" stop-color="#070310"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: Consolas,'Courier New',monospace; }
+    .ml { animation: mIn .1s both; }
+    .m1{animation-delay:.3s}.m2{animation-delay:.9s}.m3{animation-delay:1.5s}.m4{animation-delay:2.1s}
+    @keyframes mIn { from{opacity:0} to{opacity:1} }
+    .stampP { animation: stp 2.4s ease-in-out infinite; }
+    @keyframes stp { 0%,100%{opacity:.85} 50%{opacity:.45} }
+    .progFill { animation: progCharge 5s ease-in-out infinite; }
+    @keyframes progCharge { 0%{transform:scaleX(.05)} 60%{transform:scaleX(.72)} 100%{transform:scaleX(.78)} }
+  </style>
+
+  <rect x="1" y="1" width="898" height="378" rx="14" fill="url(#mG)" stroke="#B026FF" stroke-width="1.5"/>
+  <rect x="1" y="1" width="898" height="44" rx="14" fill="#160533"/>
+  <rect x="1" y="33" width="898" height="12" fill="#160533"/>
+
+  <text x="30" y="30" font-size="15" fill="#E9D5FF" letter-spacing="3">MISSION_BRIEF :: OPERATION_ASCENSION</text>
+
+  <!-- active stamp -->
+  <g class="stampP" transform="rotate(-6 790 90)">
+    <rect x="720" y="66" width="140" height="46" rx="6" fill="none" stroke="#E040FB" stroke-width="2.5"/>
+    <text x="790" y="95" font-size="19" fill="#E040FB" text-anchor="middle" font-weight="bold">ACTIVE</text>
+  </g>
+
+  <g font-size="14" fill="#eae6f2">
+    <text class="ml m1" x="34" y="86" fill="#00E5FF">&gt; OBJECTIVE_01 :: engineer production-grade systems that scale</text>
+    <text class="ml m2" x="34" y="122" fill="#00E5FF">&gt; OBJECTIVE_02 :: master the AI/ML frontier and bend it to build</text>
+    <text class="ml m3" x="34" y="158" fill="#00E5FF">&gt; OBJECTIVE_03 :: ship open-source tools the ecosystem adopts</text>
+    <text class="ml m4" x="34" y="194" fill="#00E5FF">&gt; OBJECTIVE_04 :: never stop upgrading the operator</text>
+  </g>
+
+  <!-- progress -->
+  <text x="34" y="248" font-size="12" fill="#8a7fa8" letter-spacing="2">MISSION_PROGRESS</text>
+  <rect x="34" y="260" width="832" height="16" rx="8" fill="#150425"/>
+  <rect class="progFill" x="34" y="260" width="832" height="16" rx="8" fill="#B026FF" style="transform-origin:34px 268px"/>
+  <rect x="34" y="260" width="832" height="16" rx="8" fill="none" stroke="#2D0A4E"/>
+  <text x="866" y="272" font-size="12" fill="#ffffff" text-anchor="end" dy="-4">78%</text>
+
+  <!-- intel footer -->
+  <g font-size="11" fill="#8a7fa8" letter-spacing="1">
+    <text x="34" y="330">INTEL_SOURCE: direct_observation &#183; priority: MAXIMUM</text>
+    <text x="34" y="352">IF INTERESTED IN COLLABORATION &#8594; OPEN UPLINK CHANNEL BELOW</text>
+  </g>
+  <circle cx="850" cy="340" r="5" fill="#00E5FF"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+</svg>

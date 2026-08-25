@@ -1,0 +1,79 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coreG" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E040FB" stop-opacity=".9"/>
+      <stop offset="55%" stop-color="#B026FF" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#B026FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="og"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    text { font-family: Consolas,'Courier New',monospace; letter-spacing: 1px; }
+    .orb1 { animation: spinO 12s linear infinite; transform-origin: 450px 260px; }
+    .orb2 { animation: spinO 19s linear infinite reverse; transform-origin: 450px 260px; }
+    .orb3 { animation: spinO 27s linear infinite; transform-origin: 450px 260px; }
+    @keyframes spinO { to { transform: rotate(360deg); } }
+    .lbl { animation: lblPulse 3s ease-in-out infinite; }
+    @keyframes lblPulse { 0%,100%{opacity:.65} 50%{opacity:1} }
+  </style>
+
+  <rect x="1" y="1" width="898" height="518" rx="14" fill="#070310" stroke="#2D0A4E" stroke-width="1.5"/>
+  <text x="450" y="40" font-size="16" fill="#00E5FF" text-anchor="middle" letter-spacing="4">// TECH_ORBIT :: stack_in_motion //</text>
+
+  <!-- orbit rings (tilted ellipses via rotate) -->
+  <g fill="none">
+    <ellipse cx="450" cy="260" rx="150" ry="150" stroke="#2D0A4E" stroke-width="1"/>
+    <ellipse cx="450" cy="260" rx="230" ry="230" stroke="#2D0A4E" stroke-width="1" stroke-dasharray="5 7"/>
+    <ellipse cx="450" cy="260" rx="305" ry="305" stroke="#2D0A4E" stroke-width="1"/>
+  </g>
+
+  <!-- orbiting satellites with tech tags -->
+  <!-- inner ring -->
+  <g class="orb1">
+    <circle cx="600" cy="260" r="6" fill="#E040FB" filter="url(#og)"/>
+    <rect x="548" y="222" width="104" height="24" rx="12" fill="#12042A" stroke="#E040FB" stroke-opacity=".5"/>
+    <text x="600" y="239" font-size="13" fill="#E040FB" text-anchor="middle">PYTHON</text>
+  </g>
+  <g class="orb1" style="animation-duration:15s">
+    <circle cx="300" cy="260" r="6" fill="#00E5FF" filter="url(#og)"/>
+    <rect x="264" y="286" width="72" height="24" rx="12" fill="#12042A" stroke="#00E5FF" stroke-opacity=".5"/>
+    <text x="300" y="303" font-size="13" fill="#00E5FF" text-anchor="middle">TS</text>
+  </g>
+
+  <!-- middle ring -->
+  <g class="orb2">
+    <circle cx="680" cy="260" r="6" fill="#B026FF" filter="url(#og)"/>
+    <rect x="618" y="222" width="124" height="24" rx="12" fill="#12042A" stroke="#B026FF" stroke-opacity=".5"/>
+    <text x="680" y="239" font-size="13" fill="#B026FF" text-anchor="middle">REACT</text>
+  </g>
+  <g class="orb2" style="animation-duration:23s">
+    <circle cx="220" cy="260" r="6" fill="#E040FB" filter="url(#og)"/>
+    <rect x="168" y="286" width="104" height="24" rx="12" fill="#12042A" stroke="#E040FB" stroke-opacity=".5"/>
+    <text x="220" y="303" font-size="13" fill="#E040FB" text-anchor="middle">NODE.js</text>
+  </g>
+
+  <!-- outer ring -->
+  <g class="orb3">
+    <circle cx="755" cy="260" r="6" fill="#00E5FF" filter="url(#og)"/>
+    <rect x="700" y="222" width="110" height="24" rx="12" fill="#12042A" stroke="#00E5FF" stroke-opacity=".5"/>
+    <text x="755" y="239" font-size="13" fill="#00E5FF" text-anchor="middle">AWS</text>
+  </g>
+  <g class="orb3" style="animation-duration:33s">
+    <circle cx="145" cy="260" r="6" fill="#B026FF" filter="url(#og)"/>
+    <rect x="88" y="286" width="114" height="24" rx="12" fill="#12042A" stroke="#B026FF" stroke-opacity=".5"/>
+    <text x="145" y="303" font-size="13" fill="#B026FF" text-anchor="middle">DOCKER</text>
+  </g>
+
+  <!-- central core -->
+  <circle cx="450" cy="260" r="64" fill="url(#coreG)">
+    <animate attributeName="r" values="60;70;60" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="260" r="34" fill="#0D0219" stroke="#E040FB" stroke-width="2" filter="url(#og)"/>
+  <text x="450" y="270" font-size="22" fill="#E9D5FF" text-anchor="middle" font-weight="bold">&lt;/&gt;</text>
+
+  <!-- corner readouts -->
+  <g font-size="11" fill="#8a7fa8">
+    <text x="30" y="498">GRAVITY_WELL: CODE</text>
+    <text x="870" y="498" text-anchor="end">STABILITY: LOCKED</text>
+  </g>
+</svg>

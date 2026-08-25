@@ -1,0 +1,71 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="radarFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B026FF" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#E040FB" stop-opacity=".25"/>
+    </linearGradient>
+    <linearGradient id="sweepG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity=".35"/><stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="rg"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    text { font-family: Consolas,'Courier New',monospace; }
+    .swp { transform-origin: 400px 268px; animation: sweepRot 5s linear infinite; }
+    @keyframes sweepRot { to { transform: rotate(360deg); } }
+    .vtx { animation: vtxIn .01s both; }
+    .v1{animation-delay:.4s}.v2{animation-delay:.7s}.v3{animation-delay:1s}.v4{animation-delay:1.3s}.v5{animation-delay:1.6s}.v6{animation-delay:1.9s}
+    @keyframes vtxIn { from{opacity:0} to{opacity:1} }
+    .polyIn { animation: polyGrow 1.6s cubic-bezier(.2,.8,.3,1) both; transform-origin: 400px 268px; }
+    @keyframes polyGrow { from { transform: scale(.1); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+  </style>
+
+  <rect x="1" y="1" width="798" height="498" rx="14" fill="#070310" stroke="#2D0A4E" stroke-width="1.5"/>
+  <text x="400" y="42" font-size="16" fill="#B026FF" text-anchor="middle" letter-spacing="4">// CAPABILITY_RADAR :: hex_scan //</text>
+  <line x1="40" y1="58" x2="760" y2="58" stroke="#2D0A4E"/>
+
+  <!-- concentric hexagons, center (400,268), R=170 -->
+  <g fill="none" stroke="#2D0A4E" stroke-width="1">
+    <polygon points="400,98 547.2,183 547.2,353 400,438 252.8,353 252.8,183"/>
+    <polygon points="400,132.7 518.9,200.3 518.9,335.7 400,403.3 281.1,335.7 281.1,200.3" stroke-dasharray="4 6"/>
+    <polygon points="400,167.3 490.7,217.7 490.7,318.3 400,368.7 309.3,318.3 309.3,217.7"/>
+    <polygon points="400,202 462.4,235 462.4,301 400,334 337.6,301 337.6,235" stroke-dasharray="4 6"/>
+  </g>
+  <!-- axes -->
+  <g stroke="#2D0A4E">
+    <line x1="400" y1="268" x2="400" y2="98"/><line x1="400" y1="268" x2="547.2" y2="183"/><line x1="400" y1="268" x2="547.2" y2="353"/>
+    <line x1="400" y1="268" x2="400" y2="438"/><line x1="400" y1="268" x2="252.8" y2="353"/><line x1="400" y1="268" x2="252.8" y2="183"/>
+  </g>
+
+  <!-- radar sweep wedge -->
+  <g class="swp">
+    <path d="M400,268 L400,98 A170,170 0 0 1 547.2,183 Z" fill="url(#sweepG)"/>
+    <line x1="400" y1="268" x2="400" y2="98" stroke="#00E5FF" stroke-width="1.5" opacity=".8"/>
+  </g>
+
+  <!-- data polygon: CODE 90% DESIGN 78% AI 72% CLOUD 80% OPS 68% SEC 60% -->
+  <!-- R=170; vertices computed along axes -->
+  <polygon class="polyIn" filter="url(#rg)"
+    points="400,115 519.5,199.4 512.2,308.4 400,371 297.5,330.6 312.1,211"
+    fill="url(#radarFill)" stroke="#E040FB" stroke-width="2"/>
+
+  <!-- vertices -->
+  <g fill="#ffffff">
+    <circle class="vtx v1" cx="400" cy="115" r="5"/>
+    <circle class="vtx v2" cx="519.5" cy="199.4" r="5"/>
+    <circle class="vtx v3" cx="512.2" cy="308.4" r="5"/>
+    <circle class="vtx v4" cx="400" cy="371" r="5"/>
+    <circle class="vtx v5" cx="297.5" cy="330.6" r="5"/>
+    <circle class="vtx v6" cx="312.1" cy="211" r="5"/>
+  </g>
+
+  <!-- labels + values -->
+  <g font-size="13" fill="#eae6f2">
+    <text x="400" y="82" text-anchor="middle">CODE</text><text x="400" y="70" text-anchor="middle" fill="#00E5FF">90%</text>
+    <text x="562" y="180" >DESIGN</text><text x="562" y="198" fill="#00E5FF">78%</text>
+    <text x="562" y="370">CLOUD</text><text x="562" y="388" fill="#00E5FF">80%</text>
+    <text x="400" y="462" text-anchor="middle">AI/ML</text><text x="400" y="480" text-anchor="middle" fill="#00E5FF">72%</text>
+    <text x="238" y="370" text-anchor="end">OPS</text><text x="238" y="388" text-anchor="end" fill="#00E5FF">68%</text>
+    <text x="238" y="180" text-anchor="end">SECURITY</text><text x="238" y="198" text-anchor="end" fill="#00E5FF">60%</text>
+  </g>
+</svg>
