@@ -1,6 +1,20 @@
 <div align="center">
 
-<!-- ═══════════════════════ COMMAND CENTER HERO ═══════════════════════ -->
+<!-- ══════════════════ STAGE 0 :: BIOS POST ══════════════════ -->
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/bios-post.svg" width="820" alt="NEXUS BIOS POST"/>
+
+</div>
+
+```systemlog
+[00:00:00.412] kernel: nexus_core v7.3.1 booting...
+[00:00:01.108] kernel: identity module loaded → operator: POORAIY
+[00:00:02.337] netdev0: uplink established → github.com/pooraiy
+[00:00:03.891] systemd[1]: reached target GRAPHICAL INTERFACE
+```
+
+<div align="center">
+
+<!-- ══════════════════ STAGE 1 :: OPERATOR CONSOLE ══════════════════ -->
 <img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/hero-dashboard.svg" width="100%" alt="POORAIY // NEXUS OPERATOR CONSOLE"/>
 
 <a href="https://komarev.com/ghpvc/?username=pooraiy&color=B026FF&style=for-the-badge&label=INTRUSIONS+LOGGED">
@@ -9,8 +23,8 @@
 
 </div>
 
-<!-- ═══════════════════════ OPERATOR FILE ═══════════════════════ -->
-## ▚ `OPERATOR_FILE // identity_verification`
+<!-- ══════════════════ MODULE :: IDENTITY ══════════════════ -->
+## ▚ `MOD_01 :: IDENTITY_VERIFICATION`
 
 <table>
 <tr>
@@ -27,67 +41,101 @@
 </tr>
 </table>
 
+<details>
+<summary><b>`▸ DECRYPT SUPPLEMENTARY IDENTITY FRAGMENT`</b></summary>
 <br/>
 
-<!-- ═══════════════════════ CURRENT MISSION ═══════════════════════ -->
-## ⌖ `MISSION_CONTROL // operation_ascension`
+> **CLASSIFICATION:** elite builder · systems thinker · pixel perfectionist
+> **DOCTRINE:** clean code or no code · ship > talk · automate the boring · master the fundamentals
+> **THREAT LEVEL:** to mediocrity — EXTREME
+
+</details>
+
+<br/>
+
+<!-- ══════════════════ MODULE :: MISSION ══════════════════ -->
+## ⌖ `MOD_02 :: ACTIVE_MISSION`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/mission-panel.svg" width="780" alt="mission briefing"/>
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/mission-panel.svg" width="780" alt="operation ascension"/>
 
 </div>
 
-<br/>
-
-<!-- ═══════════════════════ TECH ORBIT ═══════════════════════ -->
-## ◉ `TECH_ORBIT // stack_in_motion`
+<!-- ══════════════════ MODULE :: TECH ORBIT ══════════════════ -->
+## ◉ `MOD_03 :: TECH_ORBITAL_SYSTEM`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/orbital-stack.svg" width="760" alt="orbital tech stack"/>
-
-<br/><br/>
-
-#### `// SUPPORTING CONSTELLATION`
-
-<a href="#"><img src="https://img.shields.io/badge/Python-150425?style=flat-square&logo=python&logoColor=E040FB"/></a>
-<a href="#"><img src="https://img.shields.io/badge/TypeScript-150425?style=flat-square&logo=typescript&logoColor=B026FF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/React-150425?style=flat-square&logo=react&logoColor=00E5FF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Next.js-150425?style=flat-square&logo=next.js&logoColor=E040FB"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Node.js-150425?style=flat-square&logo=node.js&logoColor=B026FF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/AWS-150425?style=flat-square&logo=amazonwebservices&logoColor=00E5FF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Docker-150425?style=flat-square&logo=docker&logoColor=E040FB"/></a>
-<a href="#"><img src="https://img.shields.io/badge/PostgreSQL-150425?style=flat-square&logo=postgresql&logoColor=B026FF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Linux-150425?style=flat-square&logo=linux&logoColor=00E5FF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Figma-150425?style=flat-square&logo=figma&logoColor=E040FB"/></a>
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/orbital-stack.svg" width="720" alt="orbital tech stack"/>
 
 </div>
 
-<br/>
-
-<!-- ═══════════════════════ CAPABILITY SCAN ═══════════════════════ -->
-## ⟁ `CAPABILITY_SCAN :: deep_analysis`
+### `▸ SKILL_HELIX // genome_of_capabilities`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-![Capability Radar](https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/radar-stats.svg)
+![Skill Helix](https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/dna-helix.svg)
 
 </td>
 <td width="50%" valign="top">
 
-![Language Spectrum](https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/spectrum-bars.svg)
+![Global Deployment Grid](https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/holo-globe.svg)
 
 </td>
 </tr>
 </table>
 
+#### `// SUPPORTING CONSTELLATION`
+
+<div align="center">
+
+<a href="#"><img src="https://img.shields.io/badge/Python-150425?style=flat-square&logo=python&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/TypeScript-150425?style=flat-square&logo=typescript&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/JavaScript-150425?style=flat-square&logo=javascript&logoColor=00E5FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/React-150425?style=flat-square&logo=react&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Next.js-150425?style=flat-square&logo=next.js&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Node.js-150425?style=flat-square&logo=node.js&logoColor=00E5FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/AWS-150425?style=flat-square&logo=amazonwebservices&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Docker-150425?style=flat-square&logo=docker&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/GitHub_Actions-150425?style=flat-square&logo=githubactions&logoColor=00E5FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Vercel-150425?style=flat-square&logo=vercel&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/PostgreSQL-150425?style=flat-square&logo=postgresql&logoColor=B026FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Linux-150425?style=flat-square&logo=linux&logoColor=E040FB"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Tailwind-150425?style=flat-square&logo=tailwindcss&logoColor=00E5FF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Figma-150425?style=flat-square&logo=figma&logoColor=B026FF"/></a>
+
+</div>
+
 <br/>
 
-<!-- ═══════════════════════ ACTIVITY FIELD ═══════════════════════ -->
-## ▦ `ACTIVITY_FIELD :: contribution_matrix`
+<!-- ══════════════════ MODULE :: DIAGNOSTICS ══════════════════ -->
+## ⟁ `MOD_04 :: SYSTEM_DIAGNOSTICS`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/gauges-cluster.svg" width="800" alt="system gauges"/>
+
+<br/><br/>
+
+![Capability Radar](https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/radar-stats.svg)
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/oscilloscope.svg" width="700" alt="creativity oscilloscope"/>
+
+</div>
+
+```systemlog
+[00:00:05.204] diag: capability radar calibrated — CODE 90% / CLOUD 80%
+[00:00:06.779] diag: creativity waveform within optimal parameters
+[00:00:07.002] diag: zero drift detected across all subsystems
+```
+
+<!-- ══════════════════ MODULE :: ACTIVITY FIELD ══════════════════ -->
+## ▦ `MOD_05 :: ACTIVITY_FIELD`
 
 <div align="center">
 
@@ -118,10 +166,8 @@
 
 </div>
 
-<br/>
-
-<!-- ═══════════════════════ PROJECT DOSSIERS ═══════════════════════ -->
-## ⬢ `PROJECT_DOSSIERS // classified_deployments`
+<!-- ══════════════════ MODULE :: DEPLOYMENTS ══════════════════ -->
+## ⬢ `MOD_06 :: PROJECT_DEPLOYMENTS`
 
 <div align="center">
 
@@ -131,10 +177,20 @@
 
 </div>
 
+<details>
+<summary><b>`▸ ACCESS CLASSIFIED ROADMAP`</b></summary>
 <br/>
 
-<!-- ═══════════════════════ ACHIEVEMENT UNLOCKS ═══════════════════════ -->
-## ✦ `ACHIEVEMENT_UNLOCKS :: honor_system`
+```
+Q3  ████░░░░░░  AI-powered developer tools
+Q4  ██████░░░░  open-source infrastructure library
+Q5  ██████████  the project that changes everything
+```
+
+</details>
+
+<!-- ══════════════════ MODULE :: HONORS ══════════════════ -->
+## ✦ `MOD_07 :: ACHIEVEMENT_UNLOCKS`
 
 <div align="center">
 
@@ -142,10 +198,8 @@
 
 </div>
 
-<br/>
-
-<!-- ═══════════════════════ ESTABLISH UPLINK ═══════════════════════ -->
-## ⇌ `ESTABLISH_UPLINK :: secure_channels`
+<!-- ══════════════════ MODULE :: UPLINK ══════════════════ -->
+## ⇌ `MOD_08 :: ESTABLISH_UPLINK`
 
 <div align="center">
 
@@ -163,7 +217,7 @@
 
 **⭐ Star the nexus if you survived the boot sequence ⭐**
 
-`POORAIY // NEXUS_OS v3.0 — all systems nominal`
+`POORAIY // NEXUS_OS v7.3 — shutdown sequence withheld — this system never sleeps`
 
 </div>
 

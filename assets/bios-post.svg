@@ -1,0 +1,55 @@
+<svg width="1000" height="440" viewBox="0 0 1000 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="crt" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" opacity=".22"/>
+    </pattern>
+    <filter id="phos"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    text { font-family: Consolas,'Courier New',monospace; font-size:15px; }
+    .bl { animation: bIn .05s both; }
+    .d1{animation-delay:.3s}.d2{animation-delay:.8s}.d3{animation-delay:1.3s}.d4{animation-delay:1.8s}
+    .d5{animation-delay:2.3s}.d6{animation-delay:2.9s}.d7{animation-delay:3.5s}.d8{animation-delay:4.1s}
+    @keyframes bIn { from{opacity:0} to{opacity:1} }
+    .curB { animation: cblink 1s steps(1) infinite; }
+    @keyframes cblink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    .hdrGlow { animation: hg 2.5s ease-in-out infinite; }
+    @keyframes hg { 0%,100%{opacity:.7} 50%{opacity:1} }
+  </style>
+
+  <!-- CRT screen -->
+  <rect x="0" y="0" width="1000" height="440" rx="16" fill="#020108"/>
+  <rect x="0" y="0" width="1000" height="440" rx="16" fill="#0A0618" opacity=".35"/>
+  <rect x="14" y="14" width="972" height="412" rx="10" fill="#030112" stroke="#1c0b38"/>
+
+  <text class="hdrGlow" x="36" y="52" fill="#B026FF" letter-spacing="3">NEXUS BIOS v7.3.1 &#8212; POORAIY SYSTEMS INC.</text>
+  <line x1="36" y1="66" x2="964" y2="66" stroke="#2D0A4E"/>
+
+  <g filter="url(#phos)" fill="#cfc4e8">
+    <text class="bl d1" x="36" y="98">CPU&#160;&#160;&#160;&#160;&#160;&#160;&#160;: QUANTUM CORE i9-∞K&#160;&#160;&#160;@ 5.7 THZ&#160;&#160;&#160;<tspan fill="#00E5FF">[OK]</tspan></text>
+    <text class="bl d2" x="36" y="126">MEMORY TEST : 65536 MB DDR-NEON&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill="#00E5FF">[OK]</tspan></text>
+    <text class="bl d3" x="36" y="154">GPU&#160;&#160;&#160;&#160;&#160;&#160;&#160;: RTX-IMAGINATION 24GB&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill="#00E5FF">[OK]</tspan></text>
+    <text class="bl d4" x="36" y="182">STORAGE&#160;&#160;&#160;: /dev/ideas&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183; UNLIMITED I/O&#160;<tspan fill="#00E5FF">[OK]</tspan></text>
+    <text class="bl d5" x="36" y="210">DETECTING&#160;: CREATIVITY.DLL&#160;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#160;&#160;<tspan fill="#E040FB">[LOADED]</tspan></text>
+    <text class="bl d6" x="36" y="238">DETECTING&#160;: DISCIPLINE.SYS&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#160;&#160;<tspan fill="#E040FB">[LOADED]</tspan></text>
+    <text class="bl d7" x="36" y="266">MOUNTING&#160;: github.com/pooraiy&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#183;&#160;&#160;&#160;&#160;<tspan fill="#00E5FF">[MOUNTED]</tspan></text>
+  </g>
+
+  <!-- kernel load bar -->
+  <text class="bl d8" x="36" y="310" fill="#cfc4e8">LOADING KERNEL modules/<tspan fill="#B026FF">passion.ko</tspan> <tspan fill="#B026FF">curiosity.ko</tspan> <tspan fill="#B026FF">craft.ko</tspan></text>
+  <g class="bl d8">
+    <rect x="36" y="326" width="600" height="18" rx="4" fill="#150425" stroke="#2D0A4E"/>
+    <rect x="36" y="326" width="600" height="18" rx="4" fill="#B026FF">
+      <animate attributeName="width" values="0;600" dur="1.4s" begin="4.3s" fill="freeze"/>
+    </rect>
+    <rect x="36" y="326" width="600" height="18" rx="4" fill="none" stroke="#2D0A4E"/>
+    <text x="660" y="340" fill="#8a7fa8" font-size="13">100%</text>
+  </g>
+
+  <g class="bl d8">
+    <text x="36" y="392" fill="#00E5FF" letter-spacing="2">PRESS ANY KEY TO ENTER THE NEXUS<tspan class="curB">&#9608;</tspan></text>
+  </g>
+
+  <!-- CRT scanlines + vignette -->
+  <rect x="14" y="14" width="972" height="412" rx="10" fill="url(#crt)"/>
+</svg>

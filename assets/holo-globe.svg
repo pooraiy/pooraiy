@@ -1,0 +1,98 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lgG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12042a"/><stop offset="100%" stop-color="#070310"/>
+    </linearGradient>
+    <radialGradient id="sphereShade" cx="35%" cy="32%" r="80%">
+      <stop offset="0%" stop-color="#B026FF" stop-opacity=".14"/>
+      <stop offset="70%" stop-color="#B026FF" stop-opacity=".03"/>
+      <stop offset="100%" stop-color="#E040FB" stop-opacity=".08"/>
+    </radialGradient>
+    <filter id="gg"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    text { font-family: Consolas,'Courier New',monospace; letter-spacing: 1px; }
+    .lon { animation: lonSpin 7s linear infinite; transform-origin: 400px 250px; }
+    @keyframes lonSpin { to { transform: rotate(360deg) } }
+    .sat { }
+    .arcDash { stroke-dasharray: 6 10; animation: arcFlow 1.2s linear infinite; }
+    @keyframes arcFlow { to { stroke-dashoffset: -16; } }
+    .ping { animation: pingP 2.6s ease-out infinite; }
+    .p2{animation-delay:.9s} .p3{animation-delay:1.7s}
+    @keyframes pingP { 0%{r:4; opacity:.9} 100%{r:18; opacity:0} }
+  </style>
+
+  <rect x="1" y="1" width="798" height="518" rx="14" fill="url(#lgG)" stroke="#2D0A4E" stroke-width="1.5"/>
+  <text x="400" y="40" font-size="15" fill="#00E5FF" text-anchor="middle" letter-spacing="4">// GLOBAL_DEPLOYMENT_GRID :: holo_sphere //</text>
+  <line x1="40" y1="54" x2="760" y2="54" stroke="#2D0A4E"/>
+
+  <!-- hologram base ellipse -->
+  <ellipse cx="400" cy="452" rx="180" ry="22" fill="none" stroke="#B026FF" stroke-width="1" opacity=".55"/>
+  <ellipse cx="400" cy="452" rx="130" ry="14" fill="none" stroke="#B026FF" stroke-width="1" opacity=".35" stroke-dasharray="4 6"/>
+  <!-- projection beam -->
+  <polygon points="394,444 406,444 430,250 370,250" fill="#B026FF" opacity=".05">
+    <animate attributeName="opacity" values=".04;.09;.04" dur="3s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- sphere body -->
+  <circle cx="400" cy="250" r="165" fill="url(#sphereShade)" stroke="#B026FF" stroke-width="1.5" opacity=".95" filter="url(#gg)"/>
+
+  <!-- latitude rings -->
+  <g fill="none" stroke="#B026FF" stroke-width="1">
+    <ellipse cx="400" cy="250" rx="165" ry="165" opacity=".25"/>
+    <ellipse cx="400" cy="205" rx="156" ry="40" opacity=".4"/>
+    <ellipse cx="400" cy="160" rx="128" ry="32" opacity=".4"/>
+    <ellipse cx="400" cy="295" rx="156" ry="40" opacity=".4"/>
+    <ellipse cx="400" cy="340" rx="128" ry="32" opacity=".4"/>
+    <circle cx="400" cy="85" r="0"/>
+  </g>
+  <line x1="235" y1="250" x2="565" y2="250" stroke="#E040FB" stroke-width="1" opacity=".5" stroke-dasharray="3 5"/>
+
+  <!-- rotating longitudes: ellipses whose rx oscillates, staggered phases -->
+  <g fill="none" stroke="#00E5FF" stroke-width="1">
+    <ellipse cx="400" cy="250" ry="165" stroke-opacity=".65">
+      <animate attributeName="rx" values="165;120;60;8;60;120;165" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="400" cy="250" ry="165" stroke-opacity=".5">
+      <animate attributeName="rx" values="120;60;8;60;120;165;120" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="400" cy="250" ry="165" stroke-opacity=".4">
+      <animate attributeName="rx" values="60;8;60;120;165;120;60" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="400" cy="250" ry="165" stroke-opacity=".35">
+      <animate attributeName="rx" values="8;60;120;165;120;60;8" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- nodes on globe -->
+  <circle class="ping" cx="340" cy="190" r="4" fill="none" stroke="#00E5FF"/>
+  <circle cx="340" cy="190" r="4" fill="#00E5FF" filter="url(#gg)"/>
+  <circle class="ping p2" cx="475" cy="300" r="4" fill="none" stroke="#E040FB"/>
+  <circle cx="475" cy="300" r="4" fill="#E040FB" filter="url(#gg)"/>
+  <circle class="ping p3" cx="420" cy="140" r="4" fill="none" stroke="#ffffff"/>
+  <circle cx="420" cy="140" r="4" fill="#ffffff" filter="url(#gg)"/>
+
+  <!-- data arcs between nodes -->
+  <path class="arcDash" d="M340,190 Q 410,120 475,300" fill="none" stroke="#E040FB" stroke-width="1.3" opacity=".8"/>
+  <path class="arcDash" d="M420,140 Q 350,240 340,190" fill="none" stroke="#00E5FF" stroke-width="1.2" opacity=".7" style="animation-duration:1.6s"/>
+
+  <!-- orbiting satellite ring -->
+  <g transform="rotate(-18 400 250)">
+    <ellipse cx="400" cy="250" rx="215" ry="60" fill="none" stroke="#B026FF" stroke-opacity=".4" stroke-dasharray="2 8"/>
+    <circle r="5" fill="#E040FB" filter="url(#gg)">
+      <animateMotion path="M185,250 a215,60 0 1,0 430,0 a215,60 0 1,0 -430,0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#00E5FF">
+      <animateMotion path="M185,250 a215,60 0 1,0 430,0 a215,60 0 1,0 -430,0" dur="17s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- node labels -->
+  <g font-size="11">
+    <text x="330" y="172" text-anchor="end" fill="#8a7fa8">EDGE::VERCEL</text>
+    <text x="488" y="322" fill="#8a7fa8">CLOUD::AWS</text>
+    <text x="432" y="126" fill="#8a7fa8">CORE::POORAIY</text>
+  </g>
+
+  <text x="400" y="498" font-size="11" fill="#8a7fa8" text-anchor="middle">UPLINK STABLE &#183; 3 NODES ONLINE &#183; LATENCY ~0ms</text>
+</svg>

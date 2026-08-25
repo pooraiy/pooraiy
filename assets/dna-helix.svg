@@ -1,0 +1,69 @@
+<svg width="700" height="560" viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="dhG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12042a"/><stop offset="100%" stop-color="#070310"/>
+    </linearGradient>
+    <filter id="hg2"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="helixClip"><rect x="20" y="64" width="660" height="436"/></clipPath>
+    <!-- one 384px period of the helix: 12 rungs, 32px spacing -->
+    <g id="helixRows" stroke-width="1.4" font-family="Consolas,'Courier New',monospace">
+      <!-- i0: xL290 xR410 -->
+      <line x1="290" y1="80" x2="410" y2="80" stroke="#B026FF" opacity=".55"/>
+      <circle cx="290" cy="80" r="7" fill="#B026FF" opacity=".95" filter="url(#hg2)"/><circle cx="410" cy="80" r="7" fill="#E040FB" opacity=".95" filter="url(#hg2)"/>
+      <text x="350" y="84" text-anchor="middle" font-size="11" fill="#eae6f2" letter-spacing="2">PYTHON</text>
+      <!-- i1: xL297.8 xR402.2 (right front) -->
+      <line x1="298" y1="112" x2="402" y2="112" stroke="#E040FB" opacity=".4"/>
+      <circle cx="298" cy="112" r="6" fill="#00E5FF" opacity=".45"/><circle cx="402" cy="112" r="7.5" fill="#00E5FF" opacity=".95" filter="url(#hg2)"/>
+      <!-- i2: xL320 xR380 -->
+      <line x1="320" y1="144" x2="380" y2="144" stroke="#00E5FF" opacity=".6"/>
+      <circle cx="320" cy="144" r="6.5" fill="#B026FF" opacity=".9" filter="url(#hg2)"/><circle cx="380" cy="144" r="6.5" fill="#B026FF" opacity=".7"/>
+      <text x="350" y="148" text-anchor="middle" font-size="11" fill="#eae6f2" letter-spacing="2">TYPESCRIPT</text>
+      <!-- i3: cross -->
+      <line x1="350" y1="176" x2="350" y2="176" stroke="#E040FB" opacity=".3"/>
+      <circle cx="350" cy="176" r="5.5" fill="#E040FB" opacity=".45"/><circle cx="350" cy="176" r="5.5" fill="#E040FB" opacity=".45"/>
+      <!-- i4: xL380 xR320 (left front) -->
+      <line x1="320" y1="208" x2="380" y2="208" stroke="#B026FF" opacity=".6"/>
+      <circle cx="380" cy="208" r="6" fill="#B026FF" opacity=".5"/><circle cx="320" cy="208" r="7.5" fill="#B026FF" opacity=".95" filter="url(#hg2)"/>
+      <text x="350" y="212" text-anchor="middle" font-size="11" fill="#eae6f2" letter-spacing="2">REACT</text>
+      <!-- i5 -->
+      <line x1="298" y1="240" x2="402" y2="240" stroke="#00E5FF" opacity=".45"/>
+      <circle cx="298" cy="240" r="7" fill="#00E5FF" opacity=".95" filter="url(#hg2)"/><circle cx="402" cy="240" r="6" fill="#00E5FF" opacity=".5"/>
+      <!-- i6: xL410 xR290 -->
+      <line x1="290" y1="272" x2="410" y2="272" stroke="#E040FB" opacity=".6"/>
+      <circle cx="410" cy="272" r="7" fill="#E040FB" opacity=".95" filter="url(#hg2)"/><circle cx="290" cy="272" r="7" fill="#E040FB" opacity=".7"/>
+      <text x="350" y="276" text-anchor="middle" font-size="11" fill="#eae6f2" letter-spacing="2">NODE.JS</text>
+      <!-- i7 (left front) -->
+      <line x1="298" y1="304" x2="402" y2="304" stroke="#B026FF" opacity=".45"/>
+      <circle cx="298" cy="304" r="7.5" fill="#B026FF" opacity=".95" filter="url(#hg2)"/><circle cx="402" cy="304" r="6" fill="#B026FF" opacity=".5"/>
+      <!-- i8: xL380 xR320 -->
+      <line x1="320" y1="336" x2="380" y2="336" stroke="#00E5FF" opacity=".6"/>
+      <circle cx="380" cy="336" r="6.5" fill="#00E5FF" opacity=".7"/><circle cx="320" cy="336" r="6.5" fill="#00E5FF" opacity=".9" filter="url(#hg2)"/>
+      <text x="350" y="340" text-anchor="middle" font-size="11" fill="#eae6f2" letter-spacing="2">AWS</text>
+      <!-- i9: cross -->
+      <line x1="350" y1="368" x2="350" y2="368" stroke="#B026FF" opacity=".3"/>
+      <circle cx="350" cy="368" r="5.5" fill="#ffffff" opacity=".85"/><circle cx="350" cy="368" r="5.5" fill="#ffffff" opacity=".85"/>
+      <!-- i10: xL320 xR380 (right front) -->
+      <line x1="320" y1="400" x2="380" y2="400" stroke="#E040FB" opacity=".55"/>
+      <circle cx="320" cy="400" r="6" fill="#E040FB" opacity=".5"/><circle cx="380" cy="400" r="7.5" fill="#E040FB" opacity=".95" filter="url(#hg2)"/>
+      <text x="350" y="404" text-anchor="middle" font-size="11" fill="#eae6f2" letter-spacing="2">DOCKER</text>
+      <!-- i11 -->
+      <line x1="298" y1="432" x2="402" y2="432" stroke="#B026FF" opacity=".45"/>
+      <circle cx="298" cy="432" r="6" fill="#00E5FF" opacity=".5"/><circle cx="402" cy="432" r="7" fill="#00E5FF" opacity=".95" filter="url(#hg2)"/>
+    </g>
+  </defs>
+
+  <style> text { font-family: Consolas,'Courier New',monospace; } </style>
+
+  <rect x="1" y="1" width="698" height="558" rx="14" fill="url(#dhG)" stroke="#2D0A4E" stroke-width="1.5"/>
+  <text x="350" y="42" font-size="15" fill="#E040FB" text-anchor="middle" letter-spacing="4">// SKILL_HELIX :: double_strand //</text>
+  <line x1="30" y1="56" x2="670" y2="56" stroke="#2D0A4E"/>
+
+  <g clip-path="url(#helixClip)">
+    <use xlink:href="#helixRows" href="#helixRows"/>
+    <use xlink:href="#helixRows" href="#helixRows" y="-384"/>
+    <!-- scrolling upward loop -->
+    <animateTransform attributeName="transform" type="translate" values="0 24; 0 -360; 0 24" keyTimes="0;.94;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+
+  <text x="350" y="528" font-size="11" fill="#8a7fa8" text-anchor="middle">STRAND_A: LOGIC &#183; STRAND_B: IMAGINATION &#183; BOND: DISCIPLINE</text>
+</svg>
