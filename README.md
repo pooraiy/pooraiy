@@ -26,16 +26,22 @@
 </td>
 <td width="66%" valign="top">
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/terminal.svg" width="100%" alt="terminal — whoami"/>
+</div>
 
 </td>
 </tr>
 </table>
 
-I'm **Pooraiy** — a developer who believes great software is equal parts
+<br/>
+
+<div align="center">
+<em>I'm <strong>Pooraiy</strong> — a developer who believes great software is equal parts
 engineering discipline and design taste. I build for the modern web,
-wire it to the cloud, and obsess over the details nobody notices
-(because that's what makes everything else work).
+wire it to the cloud, and obsess over the details nobody notices —
+because that's what makes everything else work.</em>
+</div>
 
 <br/>
 
@@ -47,8 +53,6 @@ wire it to the cloud, and obsess over the details nobody notices
 <img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/stack-strip.svg" width="720" alt="technologies"/>
 
 </div>
-
-<br/>
 
 <!-- ═══════════ TELEMETRY ═══════════ -->
 ### `· telemetry`
@@ -70,8 +74,6 @@ wire it to the cloud, and obsess over the details nobody notices
 
 > *Consistency compounds. One commit at a time.*
 
-<br/>
-
 <!-- ═══════════ PROJECTS ═══════════ -->
 ### `· projects`
 
@@ -82,8 +84,6 @@ wire it to the cloud, and obsess over the details nobody notices
 *new builds deploying soon*
 
 </div>
-
-<br/>
 
 <!-- ═══════════ UPLINK ═══════════ -->
 ### `· uplink`
@@ -101,8 +101,8 @@ wire it to the cloud, and obsess over the details nobody notices
 <br/><br/>
 
 > *simple is hard. simple is worth it.*
-
-**⭐ star the repo if something here resonated**
+>
+> **⭐ star the repo if something here resonated**
 
 </div>
 

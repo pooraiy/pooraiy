@@ -8,6 +8,11 @@
     </linearGradient>
     <filter id="soft40"><feGaussianBlur stdDeviation="40"/></filter>
     <filter id="glow6"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="vignette" cx="50%" cy="46%" r="72%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="78%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity=".45"/>
+    </radialGradient>
   </defs>
 
   <style>
@@ -58,14 +63,17 @@
     <animateMotion path="M255,215 a345,115 0 1,1 690,0 a345,115 0 1,1 -690,0" dur="27s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- pulse ring -->
-  <circle class="pulse" cx="600" cy="205" r="150" fill="none" stroke="#A855F7"/>
+    <!-- vignette for depth -->
+    <rect width="1200" height="430" fill="url(#vignette)"/>
 
-  <!-- corner ticks -->
-  <g stroke="#332F4D" stroke-width="1.5" opacity=".9">
-    <path d="M42,38 L42,25 L57,25"/><path d="M1158,38 L1158,25 L1143,25"/>
-    <path d="M42,392 L42,405 L57,405"/><path d="M1158,392 L1158,405 L1143,405"/>
-  </g>
+    <!-- pulse ring -->
+    <circle class="pulse" cx="600" cy="205" r="150" fill="none" stroke="#A855F7"/>
+
+    <!-- corner ticks -->
+    <g stroke="#3A3656" stroke-width="1.5" opacity=".95">
+      <path d="M42,38 L42,25 L57,25"/><path d="M1158,38 L1158,25 L1143,25"/>
+      <path d="M42,392 L42,405 L57,405"/><path d="M1158,392 L1158,405 L1143,405"/>
+    </g>
 
   <!-- eyebrow -->
   <text class="fadeUp" x="600" y="108" text-anchor="middle" font-size="13" fill="#A78BFA" letter-spacing="9">&#9670; DIGITAL CRAFTSMAN &#9670;</text>
