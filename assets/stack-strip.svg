@@ -1,0 +1,41 @@
+<svg width="900" height="96" viewBox="0 0 900 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="edgeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B0916"/><stop offset="100%" stop-color="#0B0916" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edgeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B0916" stop-opacity="0"/><stop offset="100%" stop-color="#0B0916"/>
+    </linearGradient>
+    <!-- sequence of 9 slots, 150px each => period 1350px -->
+    <g id="seq" font-family="Consolas,'Courier New',monospace" font-size="17" letter-spacing="3" text-anchor="middle">
+      <text x="75"   fill="#00D9FF">PYTHON</text>
+      <text x="150"  fill="#4A4A63">/</text>
+      <text x="225"  fill="#A855F7">TYPESCRIPT</text>
+      <text x="300"  fill="#4A4A63">/</text>
+      <text x="375"  fill="#00D9FF">REACT</text>
+      <text x="450"  fill="#4A4A63">/</text>
+      <text x="525"  fill="#A855F7">NEXT.JS</text>
+      <text x="600"  fill="#4A4A63">/</text>
+      <text x="675"  fill="#00D9FF">NODE.JS</text>
+      <text x="750"  fill="#4A4A63">/</text>
+      <text x="825"  fill="#A855F7">AWS</text>
+      <text x="900"  fill="#4A4A63">/</text>
+      <text x="975"  fill="#00D9FF">DOCKER</text>
+      <text x="1050" fill="#4A4A63">/</text>
+      <text x="1125" fill="#A855F7">POSTGRES</text>
+      <text x="1200" fill="#4A4A63">/</text>
+      <text x="1275" fill="#00D9FF">LINUX</text>
+      <text x="1350" fill="#4A4A63">/</text>
+    </g>
+  </defs>
+  <style>.band{animation:sc 26s linear infinite}@keyframes sc{from{transform:translateX(0)}to{transform:translateX(-1350px)}}</style>
+
+  <rect width="900" height="96" fill="#0B0916"/>
+  <g class="band">
+    <use xlink:href="#seq" href="#seq" y="52"/>
+    <use xlink:href="#seq" href="#seq" x="1350" y="52"/>
+    <use xlink:href="#seq" href="#seq" x="-1350" y="52"/>
+  </g>
+  <rect x="0" y="0" width="160" height="96" fill="url(#edgeL)"/>
+  <rect x="740" y="0" width="160" height="96" fill="url(#edgeR)"/>
+</svg>
