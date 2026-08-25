@@ -1,116 +1,195 @@
-# 🟣 `pooraiy.exe`
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D0A4E,40:6D28D9,70:A855F7,100:C084FC&height=260&section=header&text=POORIA&fontSize=70&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Building%20Ideas%20Into%20Reality%20%E2%9A%A1&descSize=18&descAlignY=58" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0D0221,20:2D0A4E,40:7C3AED,60:A855F7,80:EC4899,100:06B6D4&text=POORIAIY&fontSize=82&fontColor=FFFFFF&fontAlignY=38&desc=ENTERING%20THE%20DIGITAL%20UNIVERSE&descSize=18&descColor=E9D5FF&descAlignY=58&animation=fadeIn"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Welcome+to+my+digital+universe+%F0%9F%9F%A3;Developer+%7C+Builder+%7C+Problem+Solver;Python+%E2%80%A2+Web+%E2%80%A2+AI+%E2%80%A2+Networking;Always+learning.+Always+building." />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=800&color=C084FC&center=true&vCenter=true&width=850&lines=WELCOME+TO+MY+DIGITAL+UNIVERSE;DEVELOPER+%7C+CREATOR+%7C+BUILDER;AI+%7C+WEB+%7C+PYTHON+%7C+NETWORKING+%7C+IOT;BUILDING+IDEAS+INTO+REALITY"/>
 
 <br/><br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=pooraiy\&label=PROFILE+VIEWS\&color=7C3AED\&style=for-the-badge)](https://github.com/pooraiy)
-[![GitHub followers](https://img.shields.io/github/followers/pooraiy?label=FOLLOWERS\&style=for-the-badge\&color=7C3AED\&labelColor=1E1033)](https://github.com/pooraiy?tab=followers)
-[![GitHub Stars](https://img.shields.io/github/stars/pooraiy?affiliations=OWNER\&style=for-the-badge\&color=A855F7\&labelColor=1E1033)](https://github.com/pooraiy?tab=repositories)
+<img src="https://komarev.com/ghpvc/?username=pooraiy&label=PROFILE+VIEWS&color=8B5CF6&style=for-the-badge"/>
+<img src="https://img.shields.io/github/followers/pooraiy?label=FOLLOWERS&style=for-the-badge&color=A855F7&labelColor=17052B"/>
+<img src="https://img.shields.io/github/stars/pooraiy?affiliations=OWNER&label=TOTAL+STARS&style=for-the-badge&color=EC4899&labelColor=17052B"/>
 
 </div>
 
----
+🟣 SYSTEM STATUS
 
-## <img src="https://img.icons8.com/fluency/28/artificial-intelligence.png" width="25"/> About Me
+╔══════════════════════════════════════════════════════════════════════╗
+║ USER        : pooraiy                                                ║
+║ ROLE        : DEVELOPER / CREATOR / PROBLEM SOLVER                  ║
+║ STATUS      : ONLINE                                                 ║
+║ SYSTEM      : OPERATIONAL                                            ║
+║ MODE        : BUILD • LEARN • EVOLVE                                ║
+║ SYSTEM LOAD : [████████████████████████████████████████] 100%       ║
+╚══════════════════════════════════════════════════════════════════════╝
 
-```text
-┌──(pooraiy㉿github)-[~/profile]
+🧬 WHO AM I
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+┌──(pooraiy@github)-[~/universe]
 └─$ whoami
 
-> A developer who loves building cool things.
-> Interested in AI, Web Development, Python & Networking.
-> Turning ideas into real projects.
-> Exploring technology one command at a time.
+> Developer
+> Creator
+> Tech Explorer
+> Problem Solver
 
-┌──(pooraiy㉿github)-[~/profile]
-└─$ status
+┌──(pooraiy@github)-[~/universe]
+└─$ cat interests.txt
 
-● ONLINE
-● BUILDING
-● LEARNING
-● EVOLVING
-```
+[✓] Artificial Intelligence
+[✓] Python Development
+[✓] Web Development
+[✓] Networking
+[✓] Linux
+[✓] Automation
+[✓] IoT & ESP32
 
-<div align="center">
+┌──(pooraiy@github)-[~/universe]
+└─$ echo $MISSION
 
-```text
-                 ╭──────────────────────────────╮
-                 │      SYSTEM STATUS: ACTIVE   │
-                 │                              │
-                 │   ████████████████████ 100%  │
-                 │                              │
-                 │   🟣  THINK                  │
-                 │   🟣  BUILD                  │
-                 │   🟣  BREAK                  │
-                 │   🟣  IMPROVE                │
-                 ╰──────────────────────────────╯
-```
+"Think. Build. Break. Improve. Repeat."
 
-</div>
+</td>
+<td width="45%" align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=pooraiy&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D0221&title_color=EC4899&text_color=E9D5FF&icon_color=A855F7"/>
 
-# ⚡ Tech Arsenal
+</td>
+</tr>
+</table>
+
+⚡ TECH ARSENAL
 
 <div align="center">
 
-### 🧠 Languages
+LANGUAGES
 
 <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,cpp&theme=dark"/>
 
 <br/><br/>
 
-### 🌐 Web & Development
+WEB & DEVELOPMENT
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,tailwind,vite&theme=dark"/>
 
 <br/><br/>
 
-### 🛠 Tools & Systems
+SYSTEM & TOOLS
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux,ubuntu,bash&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,bash,docker,git,github,vscode&theme=dark"/>
 
 <br/><br/>
 
-### 🔌 Hardware & IoT
+HARDWARE & IOT
 
 <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&theme=dark"/>
 
 </div>
 
----
-
-# 🧬 My Digital DNA
-
-```text
-╔════════════════════════════════════════════════════╗
-║                                                    ║
-║   PYTHON        ████████████████████░░░   90%       ║
-║   WEB DEV       ██████████████████░░░░░   80%       ║
-║   NETWORKING    █████████████████░░░░░░   75%       ║
-║   LINUX         ████████████████░░░░░░░   70%       ║
-║   AI            ███████████████░░░░░░░░   65%       ║
-║   IOT           ██████████████░░░░░░░░░   60%       ║
-║                                                    ║
-╚════════════════════════════════════════════════════╝
-```
-
----
-
-# 📊 GitHub Intelligence
+📊 GITHUB STATS
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pooraiy&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D0714&title_color=A855F7&icon_color=C084FC&text_color=FFFFFF"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=pooraiy&show_icons=true&include_all_commits=true&hide_border=true&bg_color=130524&title_color=C084FC&text_color=F5D0FE&icon_color=EC4899"/>
 
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=pooraiy&theme=midnight-purple&hide_border=true&background=0D0714&ring=A855F7&fire=C084FC&currStreakLabel=A855F7"/>
+<img height="180" src="https://streak-stats.demolab.com?user=pooraiy&hide_border=true&background=130524&ring=EC4899&fire=A855F7&currStreakLabel=C084FC&sideLabels=F5D0FE&dates=9CA3AF"/>
+
+<br/><br/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pooraiy&layout=compact&hide_border=true&bg_color=130524&title_color=06B6D4&text_color=F5D0FE"/>
+
+</div>
+
+📡 ACTIVITY GRAPH
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=pooraiy&bg_color=130524&color=C084FC&line=EC4899&point=06B6D4&area=true&hide_border=true&area_color=6D28D9"/>
+
+</div>
+
+🐍 CONTRIBUTION SNAKE
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pooraiy/pooraiy/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pooraiy/pooraiy/output/github-contribution-grid-snake.svg"/>
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/pooraiy/pooraiy/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+</div>
+
+🛰️ MISSION CONTROL
+
+<div align="center">
+
+SYSTEM
+
+STATUS
+
+🧠 AI CORE
+
+EXPLORING
+
+🐍 PYTHON ENGINE
+
+ACTIVE
+
+🌐 WEB LAB
+
+ONLINE
+
+📡 NETWORK LAB
+
+ACTIVE
+
+🐧 LINUX SYSTEM
+
+READY
+
+🔌 IOT CONTROL
+
+EVOLVING
+
+🚀 NEXT MISSION
+
+LOADING...
+
+</div>
+
+💎 FEATURED PROJECTS
+
+<div align="center">
+
+<a href="https://github.com/pooraiy/pooraiy">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=pooraiy&repo=pooraiy&hide_border=true&bg_color=130524&title_color=EC4899&text_color=E9D5FF&icon_color=A855F7"/>
+</a>
+
+</div>
+
+🏆 ACHIEVEMENTS
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=pooraiy&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7"/>
+
+</div>
+
+🟣 DIGITAL STATUS
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/FOCUS-BUILDING-8B5CF6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MODE-CREATIVE-EC4899?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-06B6D4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-UNSTOPPABLE-A855F7?style=for-the-badge"/>
 
 </div>
 
@@ -118,95 +197,16 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pooraiy&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D0714&title_color=A855F7&text_color=FFFFFF"/>
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║     THE BEST WAY TO PREDICT THE FUTURE                   ║
+║                                                          ║
+║                    IS TO CREATE IT.                      ║
+║                                                          ║
+║                       — POORIAIY                         ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
 
-</div>
-
----
-
-# 🐍 Contribution Evolution
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-
-</div>
-
----
-
-# 🛰️ Current Mission
-
-```text
-╭─────────────────────────────────────────────────────╮
-│                                                     │
-│  🎯  STATUS       : BUILDING                        │
-│  🧠  FOCUS        : AI & Automation                 │
-│  💻  ENVIRONMENT  : Linux / VS Code                 │
-│  🌐  EXPLORING    : Web • Networks • IoT            │
-│  🚀  NEXT LEVEL   : Always Loading...                │
-│                                                     │
-╰─────────────────────────────────────────────────────╯
-```
-
----
-
-# 🔥 Featured Projects
-
-<div align="center">
-
-|        PROJECT       | DESCRIPTION                       |    STATUS   |
-| :------------------: | :-------------------------------- | :---------: |
-|  🧠 **AI PROJECTS**  | Intelligent systems & experiments |  🟣 Active  |
-|  🌐 **WEB PROJECTS** | Modern web experiences            | 🟣 Building |
-| 📡 **NETWORK TOOLS** | Networking & automation projects  |  🟣 Active  |
-|  🔌 **IoT SYSTEMS**  | ESP32 & Smart hardware            | 🟣 Evolving |
-
-</div>
-
-> **`$ echo "The best way to predict the future is to build it."`**
-
----
-
-# 🕹️ Developer Activity
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=pooraiy&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=7"/>
-
-</div>
-
----
-
-# 🌌 Activity Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pooraiy&bg_color=0D0714&color=C084FC&line=7C3AED&point=FFFFFF&area=true&hide_border=true&area_color=4C1D95"/>
-
-</div>
-
----
-
-## 🟣 Connect With Me
-
-<div align="center">
-
-<a href="https://github.com/pooraiy">
-<img src="https://img.shields.io/badge/GitHub-pooraiy-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-```text
-┌──────────────────────────────────────┐
-│                                      │
-│   "Code. Create. Learn. Repeat."     │
-│                                      │
-│          SYSTEM: ONLINE 🟣           │
-│                                      │
-└──────────────────────────────────────┘
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D0A4E,50:7C3AED,100:C084FC&height=140&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=0:0D0221,25:312E81,50:7C3AED,70:DB2777,85:A855F7,100:06B6D4"/>
 
 </div>
