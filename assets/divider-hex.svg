@@ -1,0 +1,21 @@
+<svg width="900" height="36" viewBox="0 0 900 36" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .hex { transform-origin: center; transform-box: fill-box; animation: spin 6s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .hx { animation: glowHex 3s ease-in-out infinite; }
+    @keyframes glowHex { 0%,100%{stroke-opacity:.35} 50%{stroke-opacity:1} }
+  </style>
+  <line x1="0" y1="18" x2="330" y2="18" stroke="#2D0A4E" stroke-width="1"/>
+  <line x1="570" y1="18" x2="900" y2="18" stroke="#2D0A4E" stroke-width="1"/>
+
+  <!-- left hex cluster -->
+  <polygon class="hex hx" points="310,18 318,13.5 326,18 326,27 318,31.5 310,27" fill="none" stroke="#B026FF" stroke-width="1.5"/>
+  <polygon class="hex hx" points="296,18 301,15 306,18 306,24 301,27 296,24" fill="none" stroke="#00E5FF" stroke-width="1" style="animation-duration:4s"/>
+
+  <!-- center label -->
+  <text x="450" y="23" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#E040FB" letter-spacing="6" class="hx">[ SYSTEM SECTION ]</text>
+
+  <!-- right hex cluster -->
+  <polygon class="hex hx" points="574,18 582,13.5 590,18 590,27 582,31.5 574,27" fill="none" stroke="#B026FF" stroke-width="1.5"/>
+  <polygon class="hex hx" points="594,18 599,15 604,18 604,24 599,27 594,24" fill="none" stroke="#00E5FF" stroke-width="1" style="animation-duration:4.5s"/>
+</svg>
