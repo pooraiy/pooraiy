@@ -14,7 +14,18 @@
 
 <div align="center">
 
-<!-- ══════════════════ STAGE 1 :: OPERATOR CONSOLE ══════════════════ -->
+<!-- ══════════════════ STAGE 1 :: THE CITY ══════════════════ -->
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/neon-city.svg" width="100%" alt="POORAIY // City of Endless Build — neon skyline, rain, flying vehicles, searchlights, holographic portal"/>
+
+</div>
+
+```systemlog
+[00:00:04.556] display: rendering city_of_endless_build... rain=on vehicles=3 neon=humming
+```
+
+<div align="center">
+
+<!-- ══════════════════ STAGE 2 :: OPERATOR CONSOLE ══════════════════ -->
 <img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/hero-dashboard.svg" width="100%" alt="POORAIY // NEXUS OPERATOR CONSOLE"/>
 
 <a href="https://komarev.com/ghpvc/?username=pooraiy&color=B026FF&style=for-the-badge&label=INTRUSIONS+LOGGED">
@@ -41,6 +52,14 @@
 </tr>
 </table>
 
+### `▸ OPERATOR_CONSTELLATION // stars_of_identity`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/constellation-map.svg" width="800" alt="operator constellation star-map"/>
+
+</div>
+
 <details>
 <summary><b>`▸ DECRYPT SUPPLEMENTARY IDENTITY FRAGMENT`</b></summary>
 <br/>
@@ -51,8 +70,6 @@
 
 </details>
 
-<br/>
-
 <!-- ══════════════════ MODULE :: MISSION ══════════════════ -->
 ## ⌖ `MOD_02 :: ACTIVE_MISSION`
 
@@ -62,8 +79,17 @@
 
 </div>
 
+<!-- ══════════════════ MODULE :: AI UPLINK ══════════════════ -->
+## ⟠ `MOD_03 :: TALK_TO_NEXUS.AI`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/ai-dialogue.svg" width="760" alt="conversation with NEXUS.AI about pooraiy"/>
+
+</div>
+
 <!-- ══════════════════ MODULE :: TECH ORBIT ══════════════════ -->
-## ◉ `MOD_03 :: TECH_ORBITAL_SYSTEM`
+## ◉ `MOD_04 :: TECH_ORBITAL_SYSTEM`
 
 <div align="center">
 
@@ -109,14 +135,16 @@
 
 </div>
 
-<br/>
-
 <!-- ══════════════════ MODULE :: DIAGNOSTICS ══════════════════ -->
-## ⟁ `MOD_04 :: SYSTEM_DIAGNOSTICS`
+## ⟁ `MOD_05 :: SYSTEM_DIAGNOSTICS`
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/gauges-cluster.svg" width="800" alt="system gauges"/>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/iso-lab.svg" width="800" alt="isometric data lab"/>
 
 <br/><br/>
 
@@ -130,12 +158,12 @@
 
 ```systemlog
 [00:00:05.204] diag: capability radar calibrated — CODE 90% / CLOUD 80%
-[00:00:06.779] diag: creativity waveform within optimal parameters
+[00:00:06.779] diag: data_lab server_bay_07 nominal — build_cluster online
 [00:00:07.002] diag: zero drift detected across all subsystems
 ```
 
 <!-- ══════════════════ MODULE :: ACTIVITY FIELD ══════════════════ -->
-## ▦ `MOD_05 :: ACTIVITY_FIELD`
+## ▦ `MOD_06 :: ACTIVITY_FIELD`
 
 <div align="center">
 
@@ -167,7 +195,7 @@
 </div>
 
 <!-- ══════════════════ MODULE :: DEPLOYMENTS ══════════════════ -->
-## ⬢ `MOD_06 :: PROJECT_DEPLOYMENTS`
+## ⬢ `MOD_07 :: PROJECT_DEPLOYMENTS`
 
 <div align="center">
 
@@ -190,7 +218,7 @@ Q5  ██████████  the project that changes everything
 </details>
 
 <!-- ══════════════════ MODULE :: HONORS ══════════════════ -->
-## ✦ `MOD_07 :: ACHIEVEMENT_UNLOCKS`
+## ✦ `MOD_08 :: ACHIEVEMENT_UNLOCKS`
 
 <div align="center">
 
@@ -199,7 +227,7 @@ Q5  ██████████  the project that changes everything
 </div>
 
 <!-- ══════════════════ MODULE :: UPLINK ══════════════════ -->
-## ⇌ `MOD_08 :: ESTABLISH_UPLINK`
+## ⇌ `MOD_09 :: ESTABLISH_UPLINK`
 
 <div align="center">
 
