@@ -1,0 +1,51 @@
+<svg width="320" height="340" viewBox="0 0 320 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coreG" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#171233"/><stop offset="100%" stop-color="#0B0916"/>
+    </radialGradient>
+    <linearGradient id="duo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00D9FF"/><stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="g5"><feGaussianBlur stdDeviation="4.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .outR { transform-origin:160px 155px; animation:spin 30s linear infinite; }
+    @keyframes spin { to { transform:rotate(360deg) } }
+    .sat { animation:none }
+    .haloP { transform-origin:160px 155px; animation:hp 5.5s ease-out infinite; }
+    @keyframes hp { 0%{transform:scale(.8);opacity:.35} 80%{transform:scale(1.18);opacity:0} 100%{opacity:0} }
+  </style>
+
+  <!-- halo pulse -->
+  <circle class="haloP" cx="160" cy="155" r="105" fill="none" stroke="#A855F7"/>
+
+  <!-- outer rotating dashed ring -->
+  <g class="outR">
+    <circle cx="160" cy="155" r="128" fill="none" stroke="#00D9FF" stroke-width="1" stroke-dasharray="2 10" opacity=".55"/>
+  </g>
+  <!-- mid static ring -->
+  <circle cx="160" cy="155" r="104" fill="url(#coreG)" stroke="url(#duo)" stroke-width="1.5" opacity=".95"/>
+  <!-- cardinal ticks -->
+  <g stroke="#8B7CF6" stroke-width="1.5" opacity=".8">
+    <line x1="160" y1="41" x2="160" y2="51"/><line x1="160" y1="269" x2="160" y2="259"/>
+    <line x1="46" y1="155" x2="56" y2="155"/><line x1="274" y1="155" x2="264" y2="155"/>
+  </g>
+
+  <!-- orbiting satellite -->
+  <circle r="3" fill="#00D9FF" filter="url(#g5)">
+    <animateMotion path="M56,155 a104,104 0 1,0 208,0 a104,104 0 1,0 -208,0" dur="11s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- monogram -->
+  <text x="160" y="182" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="88"
+        fill="url(#duo)" filter="url(#g5)">P</text>
+  <text x="160" y="180" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="88"
+        fill="#F6F4FF">P</text>
+
+  <!-- caption -->
+  <text x="160" y="308" text-anchor="middle" font-family="Consolas,'Courier New',monospace"
+        font-size="12" fill="#5E6079" letter-spacing="6">EST. 2023 &#183; ACTIVE</text>
+  <line x1="100" y1="290" x2="220" y2="290" stroke="#26223D" stroke-width="1"/>
+</svg>

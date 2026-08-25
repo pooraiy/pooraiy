@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/hero.svg" width="100%" alt="POORAIY"/>
 
-<br/><br/>
+<br/>
 
 <a href="https://komarev.com/ghpvc/?username=pooraiy&color=A855F7&style=flat-square&label=VISITORS">
 <img src="https://komarev.com/ghpvc/?username=pooraiy&color=A855F7&style=flat-square&label=VISITORS" alt="visitors"/>
@@ -10,22 +10,27 @@
 
 </div>
 
-<br/>
+<br/><br/>
 
 <!-- ═══════════ ABOUT ═══════════ -->
-<div align="center">
+### `· about`
 
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider.svg" width="480" alt=""/>
-
-</div>
-
-### `about`
+<table>
+<tr>
+<td width="34%" valign="middle">
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/terminal.svg" width="640" alt="terminal — whoami"/>
-
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/emblem.svg" width="240" alt="emblem — est. 2023"/>
 </div>
+
+</td>
+<td width="66%" valign="top">
+
+<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/terminal.svg" width="100%" alt="terminal — whoami"/>
+
+</td>
+</tr>
+</table>
 
 I'm **Pooraiy** — a developer who believes great software is equal parts
 engineering discipline and design taste. I build for the modern web,
@@ -35,13 +40,7 @@ wire it to the cloud, and obsess over the details nobody notices
 <br/>
 
 <!-- ═══════════ STACK ═══════════ -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider.svg" width="480" alt=""/>
-
-</div>
-
-### `stack`
+### `· stack`
 
 <div align="center">
 
@@ -52,13 +51,7 @@ wire it to the cloud, and obsess over the details nobody notices
 <br/>
 
 <!-- ═══════════ TELEMETRY ═══════════ -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider.svg" width="480" alt=""/>
-
-</div>
-
-### `telemetry`
+### `· telemetry`
 
 <div align="center">
 
@@ -75,16 +68,12 @@ wire it to the cloud, and obsess over the details nobody notices
 
 </div>
 
+> *Consistency compounds. One commit at a time.*
+
 <br/>
 
 <!-- ═══════════ PROJECTS ═══════════ -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider.svg" width="480" alt=""/>
-
-</div>
-
-### `projects`
+### `· projects`
 
 <div align="center">
 
@@ -97,13 +86,7 @@ wire it to the cloud, and obsess over the details nobody notices
 <br/>
 
 <!-- ═══════════ UPLINK ═══════════ -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/pooraiy/pooraiy/main/assets/divider.svg" width="480" alt=""/>
-
-</div>
-
-### `uplink`
+### `· uplink`
 
 <div align="center">
 
